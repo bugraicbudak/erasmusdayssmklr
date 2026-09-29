@@ -1,149 +1,116 @@
-<!DOCTYPE html>
-<html lang="tr">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Şemikler Anadolu Lisesi Erasmus Days">
-  <title>Erasmus Days | Şemikler Anadolu Lisesi</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#174A9B">
+<meta name="description" content="Şemikler Anatolian High School Erasmus Days 2026">
+<title>Erasmus Days 2026 | Şemikler Anatolian High School</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="nav">
-    <a class="brand" href="#anasayfa" aria-label="Şemikler Anadolu Lisesi Erasmus Days">
-      <img src="erasmus-days-logo.png" alt="Erasmus Days 2026" class="brand-logo">
-      <span class="school-name">Şemikler Anadolu Lisesi</span>
-    </a>
-    <nav>
-      <a href="#anasayfa" data-tr="Ana Sayfa" data-en="Home">Ana Sayfa</a>
-      <a href="#erasmus" data-tr="Erasmus+" data-en="Erasmus+">Erasmus+</a>
-      <a href="#muzik" data-tr="Müzik Gösterisi" data-en="Music Performance">Müzik Gösterisi</a>
-      <a href="#galeri" data-tr="Galeri" data-en="Gallery">Galeri</a>
-    </nav>
-    <button class="lang" id="langBtn" type="button">EN</button>
-  </header>
+<header class="topbar">
+  <a class="brand" href="#home">
+    <img class="school-logo" src="semikler-logo.png" alt="Şemikler Anadolu Lisesi logo">
+    <img class="erasmus-header-logo" src="erasmus-days-logo.png" alt="Erasmus Days 2026">
+    <span>Şemikler Anatolian High School</span>
+  </a>
+  <nav>
+    <a href="#about" data-en="About" data-tr="Hakkında">About</a>
+    <a href="#music" data-en="Music" data-tr="Müzik">Music</a>
+    <a href="#gallery" data-en="Gallery" data-tr="Galeri">Gallery</a>
+  </nav>
+  <button id="langBtn" class="lang" type="button" aria-label="Change language">TR</button>
+</header>
 
-  <main>
-    <section class="hero" id="anasayfa">
-      <div class="stars">✦ ✧ ★ ✦ ✧ ★</div>
-      <div class="hero-content">
-        <p class="eyebrow">ŞEMİKLER ANADOLU LİSESİ</p>
-        <img class="hero-logo" src="erasmus-days-logo.png" alt="Erasmus Days 2026">
-        <p class="hero-text" data-tr="Avrupa'yı keşfet, kültürleri paylaş, geleceği birlikte şekillendir."
-           data-en="Discover Europe, share cultures, and shape the future together.">
-          Avrupa'yı keşfet, kültürleri paylaş, geleceği birlikte şekillendir.
-        </p>
-        <a class="cta" href="#galeri">
-          <span data-tr="Fotoğraf Galerisine Git" data-en="Explore the Gallery">Fotoğraf Galerisine Git</span>
-          <b>→</b>
-        </a>
-      </div>
-      <div class="hero-art" aria-hidden="true">
-        <div class="sun"></div>
-        <div class="circle c1"></div>
-        <div class="circle c2"></div>
-        <div class="circle c3"></div>
-        <div class="europe">✦</div>
-      </div>
-    </section>
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <div class="pill" data-en="ERASMUS DAYS 2026 • ŞEMİKLER" data-tr="ERASMUS DAYS 2026 • ŞEMİKLER">ERASMUS DAYS 2026 • ŞEMİKLER</div>
+    <div class="hero-identity">
+      <img class="hero-school-logo" src="semikler-logo.png" alt="Şemikler Anadolu Lisesi logo">
+      <img class="hero-logo" src="erasmus-days-logo.png" alt="Erasmus Days 2026">
+    </div>
+    <div class="motto-label" data-en="THIS YEAR'S MOTTO" data-tr="BU YILIN MOTTOSU">THIS YEAR'S MOTTO</div>
+    <h1 class="motto" data-en="Learning and growing:<br><em>skills for tomorrow</em>" data-tr="Öğrenmek ve gelişmek:<br><em>yarının becerileri</em>">Learning and growing:<br><em>skills for tomorrow</em></h1>
+    <p data-en="A celebration of learning, culture, creativity and European collaboration at Şemikler Anatolian High School."
+       data-tr="Şemikler Anadolu Lisesi'nde öğrenmenin, kültürün, yaratıcılığın ve Avrupa iş birliğinin kutlaması.">A celebration of learning, culture, creativity and European collaboration at Şemikler Anatolian High School.</p>
+    <div class="hero-actions">
+      <a class="primary" href="#gallery" data-en="Explore the gallery" data-tr="Galeriyi keşfet">Explore the gallery</a>
+      <a class="secondary" href="#music" data-en="Music performance" data-tr="Müzik gösterisi">Music performance</a>
+    </div>
+  </div>
+  <div class="hero-visual" aria-hidden="true">
+    <div class="orb orb-a"></div><div class="orb orb-b"></div><div class="orb orb-c"></div>
+    <div class="poster"><span>2026</span><b>ERASMUS<br>DAYS</b><small>ŞEMİKLER</small></div>
+  </div>
+</section>
 
-    <section class="intro" id="erasmus">
-      <div class="section-tag">01</div>
-      <div>
-        <p class="kicker" data-tr="AVRUPA'DA ÖĞREN, PAYLAŞ, GELİŞ" data-en="LEARN, SHARE, GROW IN EUROPE">
-          AVRUPA'DA ÖĞREN, PAYLAŞ, GELİŞ
-        </p>
-        <h2 data-tr="Erasmus+ ile dünyaya açılan bir okul." data-en="A school opening its doors to the world with Erasmus+.">
-          Erasmus+ ile dünyaya açılan bir okul.
-        </h2>
-        <p class="body-copy"
-           data-tr="Erasmus+, farklı ülkelerden öğrencileri ve eğitim kurumlarını bir araya getirerek öğrenme, kültürel paylaşım ve uluslararası deneyim fırsatları sunar. Şemikler Anadolu Lisesi olarak Avrupa ile kurduğumuz bağları birlikte kutluyoruz."
-           data-en="Erasmus+ brings students and educational institutions from different countries together, creating opportunities for learning, cultural exchange and international experience. As Şemikler Anatolian High School, we celebrate the connections we build across Europe.">
-          Erasmus+, farklı ülkelerden öğrencileri ve eğitim kurumlarını bir araya getirerek öğrenme, kültürel paylaşım ve uluslararası deneyim fırsatları sunar. Şemikler Anadolu Lisesi olarak Avrupa ile kurduğumuz bağları birlikte kutluyoruz.
-        </p>
-      </div>
-    </section>
+<section class="about section" id="about">
+  <div class="number">01</div>
+  <div class="section-copy">
+    <p class="eyebrow" data-en="LEARN • SHARE • GROW" data-tr="ÖĞREN • PAYLAŞ • GELİŞ">LEARN • SHARE • GROW</p>
+    <h2 data-en="Opening doors to <span>Europe.</span>" data-tr="<span>Avrupa'ya</span> açılan kapılar.">Opening doors to <span>Europe.</span></h2>
+    <p data-en="Erasmus+ connects students and educational institutions across countries, creating opportunities for learning, cultural exchange and international experience. During Erasmus Days, we celebrate the ideas, friendships and experiences that bring us closer together."
+       data-tr="Erasmus+, farklı ülkelerdeki öğrencileri ve eğitim kurumlarını bir araya getirerek öğrenme, kültürel paylaşım ve uluslararası deneyim fırsatları oluşturur. Erasmus Days boyunca bizi birbirimize yaklaştıran fikirleri, dostlukları ve deneyimleri kutluyoruz.">Erasmus+ connects students and educational institutions across countries, creating opportunities for learning, cultural exchange and international experience. During Erasmus Days, we celebrate the ideas, friendships and experiences that bring us closer together.</p>
+  </div>
+  <div class="values">
+    <article><strong>01</strong><h3 data-en="Learning" data-tr="Öğrenme">Learning</h3><p data-en="New ideas, new perspectives." data-tr="Yeni fikirler, yeni bakış açıları.">New ideas, new perspectives.</p></article>
+    <article><strong>02</strong><h3 data-en="Culture" data-tr="Kültür">Culture</h3><p data-en="Different cultures, shared experiences." data-tr="Farklı kültürler, ortak deneyimler.">Different cultures, shared experiences.</p></article>
+    <article><strong>03</strong><h3 data-en="Connection" data-tr="Bağ">Connection</h3><p data-en="Friendships beyond borders." data-tr="Sınırların ötesinde dostluklar.">Friendships beyond borders.</p></article>
+  </div>
+</section>
 
+<section class="music section" id="music">
+  <div class="music-art">
+    <div class="record"><div></div></div>
+    <div class="equalizer"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </div>
+  <div class="music-copy">
+    <p class="eyebrow" data-en="02 • MUSIC PERFORMANCE" data-tr="02 • MÜZİK GÖSTERİSİ">02 • MUSIC PERFORMANCE</p>
+    <h2 data-en="One stage.<br><span>Many voices.</span>" data-tr="Tek sahne.<br><span>Birçok ses.</span>">One stage.<br><span>Many voices.</span></h2>
+    <p data-en="Music brings people together. This space celebrates the energy, creativity and shared rhythm of our Erasmus Days performance."
+       data-tr="Müzik insanları bir araya getirir. Bu alan Erasmus Days müzik gösterimizin enerjisini, yaratıcılığını ve ortak ritmini kutluyor.">Music brings people together. This space celebrates the energy, creativity and shared rhythm of our Erasmus Days performance.</p>
+    <div class="music-media">
+      <span>♫</span>
+      <div><b data-en="Performance media" data-tr="Gösteri medyası">Performance media</b><small data-en="You can add a performance photo or video here later." data-tr="Buraya daha sonra gösteriden fotoğraf veya video ekleyebilirsiniz.">You can add a performance photo or video here later.</small></div>
+    </div>
+  </div>
+</section>
 
-    <section class="music" id="muzik">
-      <div class="music-copy">
-        <p class="kicker">02 / <span data-tr="MÜZİK GÖSTERİSİ" data-en="MUSIC PERFORMANCE">MÜZİK GÖSTERİSİ</span></p>
-        <h2 data-tr="Ritmi yakala.<br><span>Sahneyi paylaş.</span>" data-en="Feel the rhythm.<br><span>Share the stage.</span>">
-          Ritmi yakala.<br><span>Sahneyi paylaş.</span>
-        </h2>
-        <p class="body-copy"
-           data-tr="Erasmus Days etkinliğimizin enerjisini müzikle buluşturuyoruz. Gösteriden fotoğrafları ve videoları bu alanda paylaşabilirsiniz."
-           data-en="We bring the energy of Erasmus Days together with music. Share photos and videos from the performance in this section.">
-          Erasmus Days etkinliğimizin enerjisini müzikle buluşturuyoruz. Gösteriden fotoğrafları ve videoları bu alanda paylaşabilirsiniz.
-        </p>
-      </div>
-      <div class="music-card">
-        <div class="music-note">♫</div>
-        <div class="music-card-title" data-tr="Müzik Gösterisi" data-en="Music Performance">Müzik Gösterisi</div>
-        <div class="music-card-sub" data-tr="Video veya fotoğrafınızı buraya ekleyebilirsiniz."
-             data-en="You can add your video or photo here.">Video veya fotoğrafınızı buraya ekleyebilirsiniz.</div>
-        <div class="music-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-      </div>
-    </section>
+<section class="gallery section" id="gallery">
+  <div class="gallery-title">
+    <p class="eyebrow" data-en="03 • OUR MEMORIES" data-tr="03 • ANILARIMIZ">03 • OUR MEMORIES</p>
+    <h2 data-en="Moments worth<br><span>remembering.</span>" data-tr="Hatırlamaya değer<br><span>anlar.</span>">Moments worth<br><span>remembering.</span></h2>
+    <p data-en="Replace the six files in the photos folder with your own event photographs."
+       data-tr="photos klasöründeki altı dosyayı kendi etkinlik fotoğraflarınızla değiştirin.">Replace the six files in the photos folder with your own event photographs.</p>
+  </div>
+  <div class="photo-grid">
+    <figure class="photo p1"><img src="photos/foto-1.jpg" alt="Erasmus Days event photo 1"></figure>
+    <figure class="photo p2"><img src="photos/foto-2.jpg" alt="Erasmus Days event photo 2"></figure>
+    <figure class="photo p3"><img src="photos/foto-3.jpg" alt="Erasmus Days event photo 3"></figure>
+    <figure class="photo p4"><img src="photos/foto-4.jpg" alt="Erasmus Days event photo 4"></figure>
+    <figure class="photo p5"><img src="photos/foto-5.jpg" alt="Erasmus Days event photo 5"></figure>
+    <figure class="photo p6"><img src="photos/foto-6.jpg" alt="Erasmus Days event photo 6"></figure>
+  </div>
+</section>
+</main>
 
-    <section class="gallery" id="galeri">
-      <div class="gallery-head">
-        <div>
-          <p class="kicker">03 / <span data-tr="ANILARIMIZ" data-en="OUR MEMORIES">ANILARIMIZ</span></p>
-          <h2 data-tr="Erasmus Days<br><span>Fotoğraf Galerisi</span>" data-en="Erasmus Days<br><span>Photo Gallery</span>">
-            Erasmus Days<br><span>Fotoğraf Galerisi</span>
-          </h2>
-        </div>
-        <p class="gallery-note" data-tr="Etkinlikten en güzel anları burada paylaşın."
-           data-en="Share the best moments from the event here.">
-          Etkinlikten en güzel anları burada paylaşın.
-        </p>
-      </div>
-
-      <div class="photo-grid">
-        <!-- Fotoğraflarınızı değiştirmek için aşağıdaki src değerlerine kendi fotoğraf yollarınızı yazabilirsiniz. -->
-        <figure class="photo photo-large">
-          <img src="photos/foto-1.jpg" alt="Erasmus Days fotoğrafı"
-               onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')">
-          <figcaption>ERASMUS DAYS</figcaption>
-        </figure>
-        <figure class="photo">
-          <img src="photos/foto-2.jpg" alt="Erasmus Days fotoğrafı"
-               onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')">
-          <figcaption>ANILAR</figcaption>
-        </figure>
-        <figure class="photo">
-          <img src="photos/foto-3.jpg" alt="Erasmus Days fotoğrafı"
-               onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')">
-          <figcaption>BİRLİKTE</figcaption>
-        </figure>
-        <figure class="photo">
-          <img src="photos/foto-4.jpg" alt="Erasmus Days fotoğrafı"
-               onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')">
-          <figcaption>AVRUPA</figcaption>
-        </figure>
-        <figure class="photo photo-wide">
-          <img src="photos/foto-5.jpg" alt="Erasmus Days fotoğrafı"
-               onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')">
-          <figcaption>ŞEMİKLER ANADOLU LİSESİ</figcaption>
-        </figure>
-        <figure class="photo">
-          <img src="photos/foto-6.jpg" alt="Erasmus Days fotoğrafı"
-               onerror="this.style.display='none'; this.parentElement.classList.add('placeholder')">
-          <figcaption>PAYLAŞIM</figcaption>
-        </figure>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="footer-brand">✦ ERASMUS DAYS</div>
-    <p>© 2026 Şemikler Anadolu Lisesi</p>
-    <div class="footer-stars">★ ★ ★</div>
-  </footer>
-
-  <script src="script.js"></script>
+<footer>
+  <div class="footer-top">
+    <div class="footer-school"><img src="semikler-logo.png" alt="Şemikler Anadolu Lisesi logo"><div><b>Şemikler Anatolian High School</b><span data-en="Erasmus Days 2026" data-tr="Erasmus Days 2026">Erasmus Days 2026</span></div></div>
+    <a href="#home" data-en="Back to top ↑" data-tr="Yukarı dön ↑">Back to top ↑</a>
+  </div>
+  <div class="partners" aria-label="Institutional partners">
+    <div class="flags"><img src="eu-flag.svg" alt="European Union flag"><img src="turkey-flag.webp" alt="Flag of Türkiye"></div>
+    <div class="divider"></div>
+    <img class="agency" src="turkiye-ulusal-ajansi.png" alt="Türkiye Ulusal Ajansı - Turkish National Agency">
+  </div>
+  <div class="copyright">© 2026 Şemikler Anatolian High School</div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>

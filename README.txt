@@ -1,1 +1,1 @@
-..
+Open index.html. English is the default language. Use TR/EN button to switch languages. Add your images to photos as foto-1.jpg through foto-6.jpg.
