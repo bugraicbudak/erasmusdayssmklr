@@ -25,3 +25,178 @@
 
 /* v7: gallery corner labels removed */
 .photo figcaption{display:none!important}
+
+/* v8 — simplified mobile experience */
+@media(max-width:700px){
+  .topbar{height:64px;padding:0 16px}
+  .brand .school-logo{width:32px;height:38px}
+  .brand .erasmus-header-logo{width:74px;height:32px}
+  .brand span,.topbar nav{display:none}
+  .lang{padding:8px 12px;font-size:11px}
+
+  .hero{display:block;min-height:auto;padding:38px 20px 52px;text-align:center}
+  .hero:before,.hero-visual{display:none}
+  .pill{font-size:8px;padding:7px 10px}
+  .hero-identity{justify-content:center;margin:18px 0}
+  .hero-school-logo{width:62px;height:76px}
+  .hero-identity .hero-logo{width:220px;height:72px}
+  .motto-label{font-size:8px;margin-top:18px}
+  .hero h1.motto{font-size:39px;line-height:.98;letter-spacing:-2px;margin-top:8px}
+  .hero-copy>p{font-size:13px;line-height:1.65;margin:20px auto;max-width:360px}
+  .hero-actions{justify-content:center}
+  .hero-actions .secondary{display:none}
+  .hero-actions a{padding:13px 16px;font-size:11px}
+
+  .section{padding:65px 20px}
+  .about{display:block}
+  .number{display:none}
+  .section h2{font-size:39px;letter-spacing:-2px;margin-bottom:18px}
+  .section-copy>p:last-child,.music-copy>p{font-size:13px;line-height:1.7}
+  .values{display:none}
+
+  .music{display:block}
+  .music-art{height:220px;margin-bottom:30px;border-radius:22px}
+  .record{width:150px;height:150px}
+  .record div{width:45px;height:45px}
+  .equalizer{height:55px;left:20px;right:20px;bottom:16px}
+  .music-media{display:none}
+
+  .gallery-title{display:block;margin-bottom:26px}
+  .gallery-title .eyebrow{margin-bottom:14px!important}
+  .gallery-title h2{font-size:39px}
+  .gallery-title>p:last-child{font-size:12px;margin-top:16px}
+  .photo-grid{display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:145px;gap:10px}
+  .photo,.p1{grid-column:span 1!important;grid-row:span 1!important;border-radius:14px}
+  .photo-placeholder small{display:none}
+
+  footer{padding:36px 20px 22px}
+  .footer-top{display:none}
+  .partners{padding:0 0 24px;gap:18px;align-items:center;justify-content:center}
+  .flags{gap:8px}
+  .flags img{height:32px}
+  .divider{display:none}
+  .agency{width:210px;height:auto}
+  .copyright{text-align:center;font-size:9px}
+}
+@media(max-width:390px){
+  .hero-school-logo{width:54px;height:68px}
+  .hero-identity .hero-logo{width:190px}
+  .hero h1.motto{font-size:34px}
+  .photo-grid{grid-template-columns:1fr;grid-auto-rows:190px}
+}
+
+/* v9 — responsive fix for narrowed desktop / tablet widths */
+@media (min-width:701px) and (max-width:1180px){
+  .topbar{
+    height:74px;
+    padding:0 28px;
+    gap:18px;
+  }
+  .brand{gap:10px;min-width:0}
+  .brand .school-logo{width:34px;height:42px;flex:0 0 auto}
+  .brand .erasmus-header-logo{width:82px;height:38px;flex:0 0 auto}
+  .brand span{font-size:9px;max-width:115px}
+  .topbar nav{gap:20px}
+  .topbar nav a{font-size:10px}
+  .lang{padding:9px 13px;font-size:11px}
+
+  .hero{
+    min-height:auto;
+    grid-template-columns:minmax(0,1.12fr) minmax(280px,.88fr);
+    gap:24px;
+    padding:62px 7vw 72px;
+    align-items:center;
+  }
+  .hero-copy{min-width:0}
+  .pill{font-size:8px;padding:8px 12px}
+  .hero-identity{gap:14px;margin:15px 0 8px}
+  .hero-school-logo{width:66px;height:80px;flex:0 0 auto}
+  .hero-identity .hero-logo{
+    width:min(310px,31vw);
+    height:92px;
+    max-width:100%;
+  }
+  .motto-label{font-size:8px;margin-top:12px}
+  .hero h1.motto{
+    font-size:clamp(43px,5.8vw,66px);
+    line-height:.95;
+    letter-spacing:-3px;
+    overflow-wrap:normal;
+    word-break:normal;
+  }
+  .hero-copy>p{
+    max-width:560px;
+    font-size:13px;
+    line-height:1.65;
+    margin:20px 0;
+  }
+  .hero-actions a{padding:13px 15px;font-size:10px}
+
+  .hero-visual{
+    height:390px;
+    min-width:0;
+  }
+  .poster{
+    inset:35px 20px 28px 38px;
+    padding:34px;
+    border-radius:28px;
+  }
+  .poster b{
+    font-size:clamp(38px,4.5vw,56px);
+    letter-spacing:-3px;
+  }
+  .poster span{font-size:11px}
+  .poster small{font-size:9px}
+  .orb-a{width:64px;height:64px;left:6px;top:68px}
+  .orb-b{width:48px;height:48px;right:2px;top:82px}
+  .orb-c{width:38px;height:38px;left:26px;bottom:40px}
+
+  .section{padding-left:7vw;padding-right:7vw}
+  .about{grid-template-columns:48px minmax(0,1.2fr) minmax(220px,.8fr);gap:28px}
+  .section h2{font-size:clamp(40px,5vw,58px)}
+  .music{gap:50px}
+  .gallery-title h2{font-size:clamp(40px,5vw,58px)}
+}
+
+/* A second transition point: collapse hero before it becomes cramped. */
+@media (min-width:701px) and (max-width:860px){
+  .topbar nav{display:none}
+  .brand span{display:none}
+  .hero{
+    grid-template-columns:1fr;
+    text-align:center;
+    padding-top:50px;
+  }
+  .hero-identity,.hero-actions{justify-content:center}
+  .hero-copy>p{margin-left:auto;margin-right:auto}
+  .hero-visual{
+    height:330px;
+    width:min(470px,100%);
+    margin:5px auto 0;
+  }
+  .poster{inset:25px 40px}
+  .about{grid-template-columns:1fr}
+  .number{display:none}
+  .values{grid-template-columns:repeat(3,1fr)}
+  .music{grid-template-columns:1fr}
+}
+
+/* v10 — simplified copy + two-link video section */
+.videos{background:#fff}
+.simple-section-head{margin-bottom:34px}
+.simple-section-head h2{margin-bottom:0}
+.video-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.video-card{border-radius:24px;overflow:hidden;background:#eef3fa;box-shadow:0 12px 30px rgba(16,36,76,.08)}
+.video-frame{position:relative;width:100%;aspect-ratio:16/9;background:linear-gradient(135deg,#174a9b,#0b397f);overflow:hidden}
+.video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.video-placeholder{position:absolute;inset:0;display:grid;place-content:center;justify-items:center;gap:12px;color:#fff}
+.play-icon{width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:#ffd21f;color:#174a9b;font-size:20px;padding-left:3px}
+.video-placeholder b{font-size:13px;letter-spacing:1px}
+.music-copy h2{margin-bottom:0}
+.gallery-title{display:block}
+.gallery-title h2{margin-bottom:0}
+@media(max-width:700px){
+  .video-grid{grid-template-columns:1fr;gap:14px}
+  .video-card{border-radius:16px}
+  .simple-section-head{margin-bottom:22px}
+}
